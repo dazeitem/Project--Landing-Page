@@ -36,7 +36,7 @@ ul {
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     padding: 16px;
     justify-content: center;
 }
@@ -107,7 +107,6 @@ ul.header-links li a {
 .logo-container {
     position: relative;
     width: 350px;
-    background-color: #41725b;
 }
 
 .logo-container img {
@@ -219,6 +218,11 @@ ul.header-links li a {
     padding: 30px;
     width:fit-content;
     flex-shrink: 1;
+}
+
+.ca-title {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .call-action-signup button {
