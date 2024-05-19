@@ -92,18 +92,6 @@ ul.header-links li a {
     font-weight: 200;
 }
 
-.website-title-description button {
-    display: flex;
-    background-color: #ffffff;
-    padding: 7px 12px;
-    border-radius: 10px;
-    border-style: none;
-    font-size: 11px;
-    font-weight: 700;
-    color: #092327;
-    margin-top: 15px;
-}
-
 .logo-container {
     position: relative;
     width: 350px;
@@ -187,9 +175,10 @@ ul.header-links li a {
 }
 
 .quote-source {
+    margin-top: 1rem;
     width: 100%;
     text-align: right;
-    font-weight: 800;
+    font-weight: 500;
     padding-right: 30px;
     font-size: 18px;
 }
@@ -199,16 +188,17 @@ ul.header-links li a {
     justify-content: center;
     align-items: center;
     padding: 100px;
-    color: #ffffff
+    color: #000000
 }
 
 .call-action-signup {
     display: flex;
-    flex-direction: row;
-    background-color: #4E8098;
     width: max-content;
-    align-items: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    border: 10px solid seagreen;
     border-radius: 20px;
+    align-items: center;
 }
 
 .call-action {
@@ -216,7 +206,7 @@ ul.header-links li a {
     flex-direction: column;
     gap: 10px;
     padding: 30px;
-    width:fit-content;
+    width: fit-content;
     flex-shrink: 1;
 }
 
