@@ -20,10 +20,21 @@ body {
     padding-bottom: 90px;
 }
 
-.header-links, .header-logo {
+.header-logo {
     margin: 0%;
     padding: 0%;
     color: white;
+}
+
+.header-links {
+    margin: 0%;
+    margin-right: 5rem;
+    padding: 0%;
+    color: white;
+}
+
+.header-link {
+    margin: 0.6rem;
 }
 
 .header-logo {
